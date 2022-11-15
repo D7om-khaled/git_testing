@@ -1,0 +1,7 @@
+*remove git*
+
+rm -rf .git
+
+*remove file index*
+
+rm -rf index.html
