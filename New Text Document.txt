@@ -1,7 +1,43 @@
 *remove git*
 
 rm -rf .git
-
+----------------------------
 *remove file index*
 
 rm -rf index.html
+----------------------------
+
+*rollback with commit*
+
+git reset --heard commit code
+-----------------------------------
+
+*soft reset*
+
+git reset commit code
+git status and can added it again
+--------------------------------------
+
+-git branch branchname
+
+-git branch
+->	*master
+	 branchname
+
+-git checkout branchname
+
+-git branch
+->	 master
+	*branchname
+
+-git branch -d branchname  [will delete branch]
+
+** shortcut ** 
+create new branch and switch on it
+
+-git checkout -b newbranch
+------------------------------------------------------
+
+دلوقتي فكره البرانش عباره عن تيمين أ/ب الفكره ان تيم ب عمل شغل كويس فلما بدخل علي برانش أ اكيد مش هيظهرلي شغل تيم ب وبالتالي محتاج اضم شغل ب لشغل أ
+ففكره اضمهم عن طريق الميرج
+
